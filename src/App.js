@@ -1,14 +1,20 @@
+import "./App.css";
+import Dictionary from "./Dictionary";
 
-import './App.css';
-
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello World</h1>
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <h1>Hello World</h1>
+        </header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="App-footer">
+          <small>Coded by Laura Moragues</small>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
